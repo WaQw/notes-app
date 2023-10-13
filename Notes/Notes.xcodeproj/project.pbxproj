@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E518532C2AD9C67D00791712 /* UpdateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E518532B2AD9C67D00791712 /* UpdateNoteView.swift */; };
 		E54FBE952AD87F5E009FD065 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54FBE942AD87F5E009FD065 /* NotesApp.swift */; };
 		E54FBE972AD87F5E009FD065 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54FBE962AD87F5E009FD065 /* Home.swift */; };
 		E54FBE992AD87F5F009FD065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54FBE982AD87F5F009FD065 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E518532B2AD9C67D00791712 /* UpdateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteView.swift; sourceTree = "<group>"; };
 		E54FBE912AD87F5E009FD065 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54FBE942AD87F5E009FD065 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
 		E54FBE962AD87F5E009FD065 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				E54FBE982AD87F5F009FD065 /* Assets.xcassets */,
 				E54FBE9A2AD87F5F009FD065 /* Preview Content */,
 				E54FBEA52AD8A65F009FD065 /* AddNoteView.swift */,
+				E518532B2AD9C67D00791712 /* UpdateNoteView.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				E54FBEA62AD8A65F009FD065 /* AddNoteView.swift in Sources */,
 				E54FBE972AD87F5E009FD065 /* Home.swift in Sources */,
 				E54FBE952AD87F5E009FD065 /* NotesApp.swift in Sources */,
+				E518532C2AD9C67D00791712 /* UpdateNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
