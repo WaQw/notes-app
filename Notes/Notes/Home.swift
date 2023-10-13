@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
     
     @State var notes = [Note]() // update the UI everytime notes changes
+    @State var showAdd = false
     
     var body: some View {
         
@@ -18,12 +19,15 @@ struct Home: View {
                 Text(el.note)
                     .padding()
             }
+            .sheet(isPresented: $showAdd, content: {
+                AddNoteView()
+            })
             .onAppear(perform: {
                 fetchNotes()
             })
             .navigationTitle("Notes")
             .navigationBarItems(trailing: Button(action:
-                                                    {print("Add a note")},
+                                                    {self.showAdd.toggle()},
                                                  label:
                                                     {Text("Add")}
                                                 )
