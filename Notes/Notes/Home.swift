@@ -19,7 +19,7 @@ struct Home: View {
                 Text(el.note)
                     .padding()
             }
-            .sheet(isPresented: $showAdd, content: {
+            .sheet(isPresented: $showAdd, onDismiss: fetchNotes, content: {
                 AddNoteView()
             })
             .onAppear(perform: {
